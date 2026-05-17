@@ -1,0 +1,26 @@
+
+/*
+    This script is designed to run within the vbdec Script Automation UI
+    For the remote object to work you will have to use the 
+    Explore -> Script Remote Process to start the process with openscript.dll
+    
+*/
+
+if(remote.isAlive == 0) throw new Error("No remote instance running..")
+
+tb.t( "remote server: " + h(remote.ServerHWND) )
+
+f = remote.forms.item(0)
+tb.t("Form caption: " + f.caption)
+
+/*
+    tb.t(remote.newObj("Class1","newC"))
+    newC = remote.getObj("newC")
+    tb.t(newC.key)
+*/
+
+/*
+    tb.t( remote.regPtr(0x6C9BB0,"privC"))
+    privC = remote.getObj("privC")
+    tb.t(privC.key)
+*/

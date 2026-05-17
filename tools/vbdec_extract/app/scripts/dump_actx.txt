@@ -1,0 +1,14 @@
+
+tb.t("OcxList\r\n--------------------------")
+cex = vbp.ocxList
+for(i=1;i<=cex.count;i++){
+    COcxItem = cex(i)
+    tb.t([COcxItem.libName,COcxItem.ocxName,COcxItem.guid].join('\t'))
+}
+
+tb.t("\r\nActXLibs\r\n--------------------------")
+cex = vbp.actXRefs
+for(i=1;i<=cex.count;i++){
+    CActXLib = cex(i)
+    tb.t([CActXLib.name, CActXLib.version, CActXLib.libGUID].join('\t'))
+}

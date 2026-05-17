@@ -1,0 +1,17 @@
+'internalName: CMember
+
+'Variables
+Public memberID As Long
+Public voffset As Long 'todo: only set externally if called from CDbTypeLibLookup.GetMembers !
+Public Name As String
+Public ArgCount As Integer
+Public mMemberInfo As MemberInfo
+Public ProtoString As String
+Public CallType As FType
+Public ClassGUID As String
+
+'Properties
+Property OneLineProto() As String
+
+'Variables memberID voffset Name ArgCount mMemberInfo ProtoString CallType ClassGUID 
+'Properties OneLineProto 

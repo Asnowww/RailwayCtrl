@@ -1,0 +1,33 @@
+'internalName: CScriptHelper
+'Desc toolbox class which gives you easy access to commonly needed script helper objects , if you throw use throw new Error("message") to see it
+
+'Properties
+Property Get isAutomationRun() As Boolean
+Property Get Version() As String
+Property Get scriptPath() As String  
+Property Get scriptFolder() As String
+
+'Methods
+Sub writeFile(path, data)
+Function ReadFile(path)
+Function dbgLog(x)
+Function t(x, Optional clearIt) 'save text to lower textbox (default append, or clearIt =1 then clear first)
+Function setClipboard(x)
+Function getClipboard()
+Function alert(x)
+function h(x)      'convert number h to hex string
+Function h2l(x)    'hex string to long (no &h or 0x required but accepted)
+Function prompt(txt, optional def="")
+Function repeat(str, count)
+Function NewCollectionEx() As CollectionEx
+Function YesNo(txt) As Boolean
+Function gett() As String  'get all text logged to the lower textbox
+Sub Terminate()
+Function SendIPC(msg, Optional hwndOrWindowName) As Long 'outputs to Persistant Debug Window by default using WM_COPYDATA
+Function SearchStructs(searchStructText) As String
+Function typName(x) As String  'returns the typeName of an object or class type
+Public Function writeHex(path, hexString) As Boolean
+Function readBuf(va As Long, Size As Long) As String 'reads buf size from va returns hex string
+
+'Properties isAutomationRun Version scriptPath scriptFolder
+'Methods writeFile ReadFile dbgLog t setClipboard getClipboard alert h h2l prompt repeat NewCollectionEx YesNo gett Terminate SendIPC SearchStructs typName writeHex readBuf

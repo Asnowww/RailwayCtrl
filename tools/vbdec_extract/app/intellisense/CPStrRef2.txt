@@ -1,0 +1,12 @@
+'internalName: CPStrRef2
+
+'Variables
+Public DisasmOffset As Long
+Public cb As CCodeBody
+
+'Properties
+Property HexOffset() As String
+
+
+'Variables DisasmOffset cb 
+'Properties HexOffset

@@ -1,0 +1,52 @@
+'internalName: CCodeObject
+'Public Enum MethodSearchBy
+'    msb_va = 0
+'    msb_rawaddr = 1
+'    msb_Name = 2
+'    msb_foff = 3
+'    msb_displayName = 4
+'    msb_fullDisplayName = 5
+'End Enum
+
+'Alias cco2 cco3
+'Desc Every Form,Class,Module etc gets its own CCodeObject class. vbp.CodeObjects holds all cco classes, with Forms also held in vbp.Forms, classes in vbp.Classes etc..
+
+'Variables
+Public controlNames As New Collection 'of CControlName
+Public pubNames As New CollectionEx 'key = function index
+Public optInfo As New COptObjInfo
+Public objinfo As New CObjectInfo
+Public Null3 As Long                  ' 0x2C
+Public ObjectType As Long             ' 0x28
+Public oStaticVars As Long            ' 0x24 (36d) Offset to Static Vars from aModuleStatic
+Public aProcNamesArray As Long        ' 0x20 when non-zero
+Public ProcCount As Long              ' 0x1C events, funcs, subs
+Public aObjectName As Long            ' 0x18  NTS
+Public aModuleStatic As Long          ' 0x14 (20d) Pointer to Static Variables
+Public aModulePublic As Long          ' 0x10 (16d) Memory Pointer to Public Variables
+Public aStaticBytes As Long           ' 0x0C (12d) Pointer to Static Variables Struct
+Public aPublicBytes As Long           ' 0x08 (08d) Pointer to Public Variable Size integers
+Public Const1 As Long                 ' 0x04
+Public aObjectInfo As Long            ' 0x00
+Public FormDefinition As String
+Public MethodLinks As New Collection         'of CMethodLink loaded from OptInfo.aMethodLinkTable we need to know these to calc vtable offsets of functions on host object..
+Public Methods2 As New CollectionEx          'of CCodeBody building up at parse time in parallel for switch over
+Public ExternalObjects As New CollectionEx   'name of any external ocx libNames as string embedded in this code object
+Public EmbeddedControls As New CollectionEx  'all of the textboxes, buttons, menus etc as CControl
+Public ProcedureCount As Long
+Public Name As String
+Public index As Long
+Public sType As String
+Public baseOffset As Long
+Public tvNode As node 
+
+'Methods
+Function FillGrid() As String
+Function dump(Optional indent = 1) As String
+Function FuncForVTableOffset(ByVal vTableOffset As Long) As String
+Function Method2ExistsFor(arg, Optional msb As MethodSearchBy = msb_rawaddr, Optional ByRef outCB As CCodeBody) As Boolean
+Function ControlNameForID(controlID As Long, Optional ByRef out_cc As CControl) As String
+Function ResolveConstPool(Optional pb As ProgressBar = Nothing) As Collection  'of CConstPoolEntry
+
+'Variables controlNames pubNames optInfo objinfo Null3 ObjectType oStaticVars aProcNamesArray ProcCount aObjectName aModuleStatic aModulePublic aStaticBytes aPublicBytes Const1 aObjectInfo FormDefinition MethodLinks Methods2 ExternalObjects EmbeddedControls ProcedureCount Name index sType baseOffset tvNode 
+'Methods FillGrid dump FillGrid FuncForVTableOffset Method2ExistsFor ControlNameForID ResolveConstPool

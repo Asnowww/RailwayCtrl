@@ -1,0 +1,19 @@
+'internalName: CActXLib
+
+'Variables
+Public missing As Boolean
+Public version As String
+Public Name As String
+Public path As String
+Public libGUID As String
+Public Classes As New CollectionEx 'of CActiveXRef
+
+'Properties
+Property missingReason()
+
+'Methods
+unction dllName() As String
+
+'Variables missing version Name path libGUID Classes 
+'Properties missingReason 
+'Methods loadClass

@@ -1,0 +1,95 @@
+
+This is the help file for the vbdec script automation interface.
+
+You have access to a large subset of the application API.
+This is the same API used internally for all program functions.
+
+Top level classes you have access to include:
+
+vbp - the main CVBProject class 
+frm - the main form of the UI
+fso - declib.dll CFileSystem3
+dlg - declib.dll CCmnDlg
+tb  - CScriptHelper toolbox class
+
+These top level objects have hardcoded names added to the script control.
+
+All of the intellisense tool tips and function prototypes are generated on
+demand by parsing the txt files in the /%app%/intellisense folder.
+
+(: You can also disassemble vbdec, with vbdec, to see the full api :)
+
+The file name represents the js variable name to trigger intellisense on.
+You can rename the files (except for the top level objects) if they are to
+long or you want to change case 
+
+use ctrl-space to display top level list in itellisense. Current names are: 
+
+CActXLib, CActXRef, cb, cco, CControl, cex, CMember, CMethodLink, CObjectInfo, 
+CObjectTable, COcxItem, col, COptObjInfo, CProjectInfo, CProjectInfo2, 
+CPStrRef, CPStrRef2, CVBHeader, dlg, frm, fso, tb, vbp
+
+Details on each w/ comments are in the text file.
+Sample scripts are in /scripts
+
+Other than the top level objs, the ones you use the most will probably be:
+
+cco - CCodeObject
+cb - CCodebody
+cex - CollectionEx
+
+example:
+
+-------------------------------------------------------------
+/*
+walk all the code objects, dumping method names and embedded controls
+*/
+
+cex = vbp.codeObjects
+
+for(i=1; i <= cex.count; i++){
+   cco = cex.baseCollection(i)
+   tb.t('name:'+cco.name+' methods:'+cco.methods2.count+' controls:'+ cco.embeddedControls.count )
+   tb.t('\n\tMethods:')
+   for(j=1; j<= cco.methods2.count; j++){
+        cb = cco.methods2.baseCollection(j)
+        tb.t('\t\t'+ tb.h(cb.va)+' '+cb.displayName(1) )
+    }
+    tb.t('\n\tControls:')
+    for(j=1; j<= cco.embeddedControls.count; j++){
+        ccontrol = cco.embeddedControls.baseCollection(j)
+        tb.t('\t\t'+ccontrol.Name )
+    }
+    tb.t('\n')
+}
+-------------------------------------------------------------
+
+Note that the intellisense is simply based on variable name. No live
+class instance is set until you set it. You will find it works quite 
+well for how lite weight it is.
+
+There are some nuances like Collection.Count() and CollectionEx.Count
+This difference is because the first is a method and the second a property.
+Sometimes it is also safer to use CollectionEx.baseCollection(i) when accessing
+items by item. rather than using the CollectionEx(i) default method. This depends on
+if numeric keys were used when adding items. CollectionEx supports methods to dump keys
+so you can see how a given object was configured if need be.
+
+If you edit the txt files, do not change the internalName: lines. This is how
+the intellisense keeps going when a function returns a As NextClass. It parses
+the prototypes to figure out return type and looks it up from intnernal name
+(since you are free to rename most of the files to change default js var name used)
+
+Some elements have an 'Alias line set. This is in case you need two say CCodeBody objects.
+Aliases are currently set for cex, cb, and cco. (CollectionEx, CCodeBody, CCodeObject types)
+This is also an easy way to shorten long type names if you want without renaming files.
+(ex CVbHeader - > chead)
+
+Currently there is no access to the debugger or debugee.
+
+If you have problems, questions, or ideas on what you would like to see implemented
+feel free to mail me at: dzzie@yahoo.com
+
+
+
+

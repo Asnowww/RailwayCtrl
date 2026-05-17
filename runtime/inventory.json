@@ -1,0 +1,297 @@
+[
+  {
+    "path": "runtime\\original\\DiskID.dll",
+    "size": 49152,
+    "sha256": "4d1a7c38ba42b905b2dca67ec38827de19b8dcc19a620742bbdee20c4497cea3"
+  },
+  {
+    "path": "runtime\\original\\teacher.exe",
+    "size": 1286144,
+    "sha256": "e05645a552bb4eaf0f5d37852eeb90cd5df16a1c35de4bba515b1a34c11f1704"
+  },
+  {
+    "path": "runtime\\original\\Control\\DLControl.ocx",
+    "size": 290816,
+    "sha256": "e71b7f66639658d8fa651b64184f2fbe3ffe8be5f0b5a04b294baf3e5b6a60df"
+  },
+  {
+    "path": "runtime\\original\\Control\\DLCONT~1.oca",
+    "size": 15360,
+    "sha256": "314706ba5b72404a2992bb688064c9d9f93290607afc7909e131f8af52a6dcec"
+  },
+  {
+    "path": "runtime\\original\\Control\\HAND.ICO",
+    "size": 766,
+    "sha256": "eb89bd12541442e35dce59d51dafcc48587f5e36204e789f9efa1df98e201314"
+  },
+  {
+    "path": "runtime\\original\\Control\\PROCBAR.oca",
+    "size": 15872,
+    "sha256": "bbcb15a3e2ca0e143896680a4567c63c8f5e881f40e9d8d3c7cc918628f68aee"
+  },
+  {
+    "path": "runtime\\original\\Control\\ProcBar.ocx",
+    "size": 22016,
+    "sha256": "ffdf96a3fd5197f169c5f8d5d13afb62300ce6d392b051f1efb6239110abfb4f"
+  },
+  {
+    "path": "runtime\\original\\Control\\REG.BAT",
+    "size": 306,
+    "sha256": "be588d882e8ebb5b5eed64d44796f122635072dc44aa8930113e7b8dee3c0921"
+  },
+  {
+    "path": "runtime\\original\\Control\\REGSVR32.EXE",
+    "size": 37136,
+    "sha256": "2de629aa34cd062e4ad03d33fa866aaaef44890d11fe6320305d88fc8d22f9e7"
+  },
+  {
+    "path": "runtime\\original\\Control\\uninstall.bat",
+    "size": 229,
+    "sha256": "4613f754aaffb8e2b8b8de799065f04506cf57e946a43bb1960a0a3235e91b5a"
+  },
+  {
+    "path": "runtime\\original\\Control\\信号.oca",
+    "size": 27136,
+    "sha256": "2069c5ff562fb1ed8090f1d6053e19914d5a64f2a9c5574c79b7616935c8c6c3"
+  },
+  {
+    "path": "runtime\\original\\Control\\信号.ocx",
+    "size": 155648,
+    "sha256": "b10fd3713cbd4fb26a445ddac203778925160773e010a381fe7d2dbb769af749"
+  },
+  {
+    "path": "runtime\\original\\Control\\分界线.oca",
+    "size": 18944,
+    "sha256": "4c5a073ee634aaed86078913cbd02112c80cc475c199d5aebd88b9851c20041d"
+  },
+  {
+    "path": "runtime\\original\\Control\\分界线.ocx",
+    "size": 49152,
+    "sha256": "fea8678acead329b920ac5ae12d5de219f965ce16cf7534be0ef72e86c57134c"
+  },
+  {
+    "path": "runtime\\original\\Control\\列车按钮.oca",
+    "size": 18432,
+    "sha256": "ba474ac0cd9c9a640d9924c42bbc48a38bc0073ff3272f49729438e42af837ee"
+  },
+  {
+    "path": "runtime\\original\\Control\\列车按钮.ocx",
+    "size": 53248,
+    "sha256": "632795f6e3ad1c5fd471993211b703ba8ea803bb8b95f68162fbba02a8650382"
+  },
+  {
+    "path": "runtime\\original\\Control\\区段.oca",
+    "size": 26112,
+    "sha256": "264602d9c5821d477cb8fa3e8f922445c1ec04cbb6d5930101c79ad391d1a7f2"
+  },
+  {
+    "path": "runtime\\original\\Control\\区段.ocx",
+    "size": 110592,
+    "sha256": "4f1617bc7eb3cdbbd9a5917c59f4f83fe59fc565d47ef6e93cc34a71b76b05e2"
+  },
+  {
+    "path": "runtime\\original\\Control\\密码.oca",
+    "size": 21504,
+    "sha256": "ea63cfe373044aeabec5b73216b56492d4c2848e247b48ad37ad40b6090d03f6"
+  },
+  {
+    "path": "runtime\\original\\Control\\密码.ocx",
+    "size": 118784,
+    "sha256": "00571cc3fab7a6dbf72cf8fc2dfda63927248b0f258787bf11653ba40ed41c92"
+  },
+  {
+    "path": "runtime\\original\\Control\\延时.oca",
+    "size": 20480,
+    "sha256": "9be13425d219a35f02c74abaf8cb66db11ac89a877d33b4bf071fc599737baf7"
+  },
+  {
+    "path": "runtime\\original\\Control\\延时.ocx",
+    "size": 45056,
+    "sha256": "358de0bdc53f273806a60914ca90ab9f4bb30165ec08fdafdaa3e507057e8da8"
+  },
+  {
+    "path": "runtime\\original\\Control\\总人解延时.oca",
+    "size": 18432,
+    "sha256": "7e0639fcd2d4bd271b0a694f1a48631a30b3a43b3e79ba57496e384249145b02"
+  },
+  {
+    "path": "runtime\\original\\Control\\总人解延时.ocx",
+    "size": 36864,
+    "sha256": "4f9a54039e0ea06c21cde4f0ad3639da79a065616678c23f51f4867bcdb8be82"
+  },
+  {
+    "path": "runtime\\original\\Control\\标签.oca",
+    "size": 17408,
+    "sha256": "ab1e790a0102e56e6ca687be16ab0b6d8fd879bdc6eb10798fe6f03df72f23de"
+  },
+  {
+    "path": "runtime\\original\\Control\\标签.ocx",
+    "size": 45056,
+    "sha256": "3fb89525dbd3a87628973a33e8df88ab03b3b5fda345eeb6a4b584144069db09"
+  },
+  {
+    "path": "runtime\\original\\Control\\统计面板.oca",
+    "size": 18432,
+    "sha256": "bb3b0bacd17e8b08952aed05d969d1a656ebc5c9597f88a5297883fba83037f1"
+  },
+  {
+    "path": "runtime\\original\\Control\\统计面板.ocx",
+    "size": 36864,
+    "sha256": "0172669615b8a451a946aaaf70481a5cc99b26381a5c9d646ae3398021c68d4d"
+  },
+  {
+    "path": "runtime\\original\\Control\\菜单按钮.oca",
+    "size": 18432,
+    "sha256": "77c304442fc148bf8b5d102e946054be5ef3e584ef2d73b6a9e51afdd21cf7a2"
+  },
+  {
+    "path": "runtime\\original\\Control\\菜单按钮.ocx",
+    "size": 49152,
+    "sha256": "350994a4606f8fcc9a8ed88ab834593d98bbca6372cae9e38a85cf8dc48e645d"
+  },
+  {
+    "path": "runtime\\original\\Control\\道岔.oca",
+    "size": 28672,
+    "sha256": "0e143824c8b9589e178cc6bd343239ce0fbbf785767b7a1c5cd37fac4fc42542"
+  },
+  {
+    "path": "runtime\\original\\Control\\道岔.ocx",
+    "size": 167936,
+    "sha256": "a1688cf09f47577607fd4425ae5e34adf3f8d88bacc611e2110fdd41471b13fe"
+  },
+  {
+    "path": "runtime\\original\\Control\\闭塞.oca",
+    "size": 19456,
+    "sha256": "c6e82693f0c4a31f9d39d184068904a8ae7111019c04c8a66837532178299c04"
+  },
+  {
+    "path": "runtime\\original\\Control\\闭塞.ocx",
+    "size": 65536,
+    "sha256": "f90785815b738ac43391965466ce97c058f3fa221b52f13ee3ad732a462d5e5a"
+  },
+  {
+    "path": "runtime\\original\\Data\\Assistant.mdb",
+    "size": 184320,
+    "sha256": "947bac8715dac57c3661b868fb9db6217708f9107fd085c3bf598835deb16dc5"
+  },
+  {
+    "path": "runtime\\original\\Data\\Data.mdb",
+    "size": 184320,
+    "sha256": "77425252d7ae783574c3d70be07b1db82d8e02ab13d1da060b82f0536a38ff8d"
+  },
+  {
+    "path": "runtime\\original\\Data\\Info.mdb",
+    "size": 323584,
+    "sha256": "2281c96ec7d3a0d68740cbb4bc5b9644104a0da158a68073d0d384a9139c15dc"
+  },
+  {
+    "path": "runtime\\original\\Data\\passwdcheck.mdb",
+    "size": 114688,
+    "sha256": "fc3aac6e23d48ba74fe74d13b62eddaf6dfee9b97cc18b069197dc30e0eac46a"
+  },
+  {
+    "path": "runtime\\original\\Data\\Signal.mdb",
+    "size": 217088,
+    "sha256": "43855028265f6353081d1777836785890ab3f4798105ca3a9ea8e64fb54ddc78"
+  },
+  {
+    "path": "runtime\\original\\Data\\Special.MDB",
+    "size": 176128,
+    "sha256": "a37ae024c4bf96af1d88a879369910e5f13fb8546d8f5158b183e26ea5e8cdad"
+  },
+  {
+    "path": "runtime\\original\\Data\\System.mdb",
+    "size": 258048,
+    "sha256": "f4e327d898e6ade5b327ed1e335e5e859f16a39b3e6d203b130146265aebb104"
+  },
+  {
+    "path": "runtime\\original\\sound\\ding.wav",
+    "size": 80856,
+    "sha256": "47a423798ff67d9c00f1607f470573d80653b7581475fa850a557c46b06a104a"
+  },
+  {
+    "path": "runtime\\original\\sound\\DL.WAV",
+    "size": 10038,
+    "sha256": "c61c71b3e43a3a34688303158d400af5d5f7570e01771c12678c9349413590a7"
+  },
+  {
+    "path": "runtime\\original\\sound\\上行一接近.wav",
+    "size": 61196,
+    "sha256": "83a902043c148e7a5f55b920590f74470bb9f2b35b1f2fe7a7fbce31d1c4e834"
+  },
+  {
+    "path": "runtime\\original\\sound\\上行三接近.wav",
+    "size": 64528,
+    "sha256": "008ad7d90b1481dac16298be44b786e80117615810952b2ad04fb7b4ea2066e3"
+  },
+  {
+    "path": "runtime\\original\\sound\\上行二接近.wav",
+    "size": 60760,
+    "sha256": "2b5352c21b6ea0d426a9c9cd9f8c3d049a131bf26f732b0bc16a24bd16b677f4"
+  },
+  {
+    "path": "runtime\\original\\sound\\下行一接近.wav",
+    "size": 60548,
+    "sha256": "f841877ee1e2a3e1373f25362896cb03f8ac1cdc6e24a0884a34a7f04577cebc"
+  },
+  {
+    "path": "runtime\\original\\sound\\下行三接近.wav",
+    "size": 65118,
+    "sha256": "4d20b7e2334b56073f1ca4ec9899bbabb498ea65df8f3c386eb0da15006ed7d0"
+  },
+  {
+    "path": "runtime\\original\\sound\\下行二接近.wav",
+    "size": 60558,
+    "sha256": "f4a2f7e513a56049591e8885df79ab55ce4d297016b17efeb8a353ef2cae0afb"
+  },
+  {
+    "path": "runtime\\original\\sound\\信号非正常关闭.WAV",
+    "size": 589832,
+    "sha256": "605d4e7c14b64a48c728349106122c231dbbca8abf86e95159b7af936d6febad"
+  },
+  {
+    "path": "runtime\\original\\sound\\同意.wav",
+    "size": 458768,
+    "sha256": "dca453080f28ca926450db3f1e2e19f7c81ddafb557aa7df621f33dba0cd2576"
+  },
+  {
+    "path": "runtime\\original\\sound\\断丝报警.WAV",
+    "size": 589832,
+    "sha256": "99f910080e6d44600999a8e4b894a7096f87ac6212bd621b6cb8b225919f1707"
+  },
+  {
+    "path": "runtime\\original\\sound\\请求.wav",
+    "size": 458768,
+    "sha256": "6e95d37fff4cf530b46778d889c91efd76f25e7163ea68ab64a16c4a39fb45e9"
+  },
+  {
+    "path": "runtime\\original\\sound\\道岔挤岔报警.WAV",
+    "size": 524300,
+    "sha256": "6da560f6b51c6e85d208b838807684e8316b05e391ec35cc76aaf42aadf93238"
+  },
+  {
+    "path": "runtime\\original\\sound\\道岔无表示.wav",
+    "size": 59958,
+    "sha256": "e3f6031fff61bf8affadaa8c7ce4b2962f5bb03397737dca7c97e56282cc781f"
+  },
+  {
+    "path": "runtime\\original\\Uninstall\\IRIMG1.JPG",
+    "size": 5277,
+    "sha256": "4abba5414055f45d541f2d4a7d8450091c39ce4990ed0d32fb67a0625102800c"
+  },
+  {
+    "path": "runtime\\original\\Uninstall\\IRIMG2.JPG",
+    "size": 21683,
+    "sha256": "9862fc5877f5c15df854035285df151c66e17c076b04a05d93b00bbf0d247a3c"
+  },
+  {
+    "path": "runtime\\original\\Uninstall\\uninstall.dat",
+    "size": 65696,
+    "sha256": "8e8ddf927235cbfefa0cf81f9ed37a8afc765f2c13408d56fe29948d6a0327ec"
+  },
+  {
+    "path": "runtime\\original\\Uninstall\\uninstall.xml",
+    "size": 21498,
+    "sha256": "839ddf633724f6c76919510de4202d63d0f6ed48192f20e1d4c3a51f32bbc054"
+  }
+]

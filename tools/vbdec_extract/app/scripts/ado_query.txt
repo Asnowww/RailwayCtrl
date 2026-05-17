@@ -1,0 +1,21 @@
+
+try{
+    cn.close()
+}catch(e){}
+
+//change this to something on your system I didnt include a mdb in installer..
+var dbPath = "D:\\_code\\sql-autocomplete\\db1.mdb"
+
+cn.connectionString = "Provider=MSDASQL;Driver={Microsoft Access Driver (*.mdb)};DBQ=" +
+                       dbPath + ";"  
+cn.Open()
+ 
+var adSchemaTables = 20 
+var rs = cn.OpenSchema(adSchemaTables) 
+ 
+while(!rs.EOF){
+    tb.t(rs("TABLE_TYPE")+ ":\t" + rs("TABLE_NAME").Value)
+    rs.MoveNext
+}
+
+cn.Close  

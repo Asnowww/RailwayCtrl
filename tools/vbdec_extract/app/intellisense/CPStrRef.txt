@@ -1,0 +1,12 @@
+'internalName: CPStrRef
+
+'Variables
+Public Refs As New CollectionEx 'of PStrRef2 tracks function and offset
+Public offset As Long
+Public data As String
+
+'Properties
+Property HexOffset() As String
+
+'Variables Refs offset data 
+'Properties HexOffset 

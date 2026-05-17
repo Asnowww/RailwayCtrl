@@ -1,0 +1,28 @@
+'internalName: CObjectInfo
+
+'Variables
+Public lpConstantPool As Long
+Public lpIdeData3 As Long
+Public lpIdeData2 As Long
+Public iMaxConstants As Integer    ' Maximum Constants to allocate.
+Public iConstantsCount As Integer  ' Number of Constants
+Public lpMethods As Long
+Public wMethodCount2 As Integer    ' Zeroed out after compilation. IDE only.
+Public NumberOfProcs As Integer
+Public lpProjectData As Long       ' 0x1C [can someone verify this?]
+Public aObject As Long
+Public Null2 As Long
+Public dwReserved As Long
+Public lpPrivateObject As Long     ' Pointer to Private Object Descriptor.
+Public lpIdeData As Long           ' Zero after compilation. Used in IDE only.
+Public aObjectTable As Long        ' Pointer to the Object Table
+Public ObjectIndex As Integer
+Public wRefCount As Integer        ' Always 1 after compilation.
+Public baseOffset As Long
+
+'Methods
+Function FillGrid() As String
+Function dump(Optional prefix = vbTab) As String
+
+'Variables lpConstantPool lpIdeData3 lpIdeData2 iMaxConstants iConstantsCount lpMethods wMethodCount2 NumberOfProcs lpProjectData aObject Null2 dwReserved lpPrivateObject lpIdeData aObjectTable ObjectIndex wRefCount baseOffset 
+'Methods FillGrid dump

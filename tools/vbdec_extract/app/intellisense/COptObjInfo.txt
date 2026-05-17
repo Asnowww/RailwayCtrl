@@ -1,0 +1,34 @@
+'internalName: COptObjInfo
+
+'Variables
+Public lpIdeData As Long              ' 0x3C usually null                 ' 0x3C usually null
+Public Null3 As Long                  ' 0x38
+Public aBasicClassObject As Long      ' 0x34 Pointer to an in-memory
+Public aMethodLinkTable As Long               ' 0x30  Pointer to pointers of MethodLink
+Public oTerminateEvent As Integer     ' 0x2E (46d) Offset to Terminate Event from aMethodLinkTable
+Public oInitializeEvent As Integer    ' 0x2C (44d) Offset to Initialize Event from aMethodLinkTable
+Public iPCodeCount As Integer         ' Number of P-Codes used by this Object.
+Public iMethodLinkCount  As Integer         ' Number of Events in Event Array.
+Public lpControls As Long             ' Pointer to Controls Array.
+Public ControlCount As Long           ' Number of Controls in array below.
+Public lpObjectGuid2 As Long          ' Pointer to Array of Object GUIDs.
+Public dwNull2 As Long
+Public lpControls2 As Long            ' Usually the same as lpControls.
+Public dwObjectTypeGuids As Long      ' How many GUIDs in the Array above.
+Public lpuuidObjectTypes As Long      ' Pointer to Array of Object Interface GUIDs
+Public Null1 As Long
+Public lpObjectGuid As Long           ' Unique GUID of the Object *VERIFY*
+Public dwObjectGuids As Long          ' How many GUIDs to Register. 2 = Designer
+Public interfaces As New Collection
+Public baseOffset As Long
+Public ObjectGUID2 As String
+Public ObjectGUID As String
+Public parent As CCodeObject
+Public isLoaded As Boolean            'its optional not all objects support it but class instance is always live for CCodeObject parent
+
+'Methods
+Function FillGrid() As String
+Function dump(Optional prefix = vbTab) As String
+
+'Variables lpIdeData Null3 aBasicClassObject aMethodLinkTable oTerminateEvent oInitializeEvent iPCodeCount iMethodLinkCount lpControls ControlCount lpObjectGuid2 dwNull2 lpControls2 dwObjectTypeGuids lpuuidObjectTypes Null1 lpObjectGuid dwObjectGuids interfaces baseOffset ObjectGUID2 ObjectGUID parent isLoaded 
+'Methods FillGrid dump 

@@ -1,0 +1,17 @@
+
+//enumerate all instances of a target object
+//display the objptr's and extract an instance string variable
+
+col = remote.instancesOf("Class1")
+
+if(col.count()==0) throw new Error("Error: " + remote.lastMsg )
+
+for(i=1;i<=col.count();i++){
+    objptr = col.item(i)
+    n = remote.readString(objptr + 0x34) //offset dependant on your sample..
+    
+    //a = remote.readLong(objptr + 0x34) 
+    //n = remote.readString(a,false,2000,false)//direct read string no deref variable addr
+    
+    tb.t( h(objptr) + " string field 0x34 = " + n )
+}

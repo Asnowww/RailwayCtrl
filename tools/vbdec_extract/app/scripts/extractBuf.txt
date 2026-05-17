@@ -1,0 +1,19 @@
+
+va = vbp.vBHeader.baseOffset
+sz = vbp.vBHeader.structSize
+hs = tb.readBuf(va,sz) //returns hex string
+tb.t(hs)
+
+//remote.readBuf(va,size) also returns a hex string for buf
+
+//pth = dlg.saveDialog("vbheader.bin", fso.getSpecialFolder(0)) //desktop
+//if(pth.length==0) throw new Error("Path not set")
+
+pth = fso.getSpecialFolder(0) + "\\vbheader.bin"
+if(fso.fileExists(pth)) fso.deleteFile(pth)
+
+if(!tb.writeHex(pth,hs)) throw new Error("Error writing file")
+
+tb.t("\r\nSuccess: " + pth)
+
+

@@ -1,0 +1,674 @@
+<SUF70UninstallData>
+<DataFilePath>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Uninstall\uninstall.dat</DataFilePath>
+<CPRegKey>SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\计算机联锁仿真培训系统（标准版）1.0</CPRegKey>
+<EXELocation>C:\WINDOWS\计算机联锁仿真培训系统（标准版）\uninstall.exe</EXELocation>
+<UninstallFiles>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\计算机联锁仿真培训系统.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Data\Assistant.mdb</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Data\Data.mdb</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Data\Info.mdb</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Data\passwdcheck.mdb</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Data\Signal.mdb</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Data\Special.MDB</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Data\System.mdb</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\ding.wav</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\DL.WAV</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\上行一接近.wav</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\上行三接近.wav</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\上行二接近.wav</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\下行一接近.wav</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\下行三接近.wav</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\下行二接近.wav</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\信号非正常关闭.WAV</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\同意.wav</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\断丝报警.WAV</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\请求.wav</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\道岔挤岔报警.WAV</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound\道岔无表示.wav</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\DiskID.dll</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\teacher.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\学员机（6502）.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\学员机（EI32-JD）.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\学员机（K5B）.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\学员机（TR9）.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\学员机（TYJL-II）.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\DLControl.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\DLCONT~1.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\HAND.ICO</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\PROCBAR.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\ProcBar.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\REG.BAT</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\REGSVR32.EXE</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\uninstall.bat</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\信号.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\信号.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\分界线.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\分界线.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\列车按钮.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\列车按钮.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\区段.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\区段.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\密码.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\密码.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\延时.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\延时.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\总人解延时.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\总人解延时.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\标签.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\标签.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\统计面板.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\统计面板.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\菜单按钮.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\菜单按钮.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\道岔.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\道岔.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\闭塞.oca</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control\闭塞.ocx</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\使用手册(新版）.doc</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\高级设置.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+</UninstallFiles>
+<UninstallShortcuts>
+<Filename>C:\Users\patri\Desktop\标准版.lnk</Filename>
+<Filename>C:\Users\patri\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\计算机联锁仿真培训系统（标准版）\标准版.lnk</Filename>
+<Filename>C:\Users\patri\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\计算机联锁仿真培训系统（标准版）\教练机.lnk</Filename>
+<Filename>C:\Users\patri\Desktop\使用手册（计算机联锁仿真培训系统）.lnk</Filename>
+<Filename>C:\Users\patri\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\计算机联锁仿真培训系统（标准版）\设置.lnk</Filename>
+<Filename>C:\Users\patri\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\计算机联锁仿真培训系统（标准版）\卸载 计算机联锁仿真培训系统（标准版）.lnk</Filename>
+</UninstallShortcuts>
+<UninstallSupportFiles>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Uninstall\IRIMG1.JPG</Filename>
+<Filename>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Uninstall\IRIMG2.JPG</Filename>
+</UninstallSupportFiles>
+<UninstallFolders>
+<FolderPath>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）</FolderPath>
+<FolderPath>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Uninstall</FolderPath>
+<FolderPath>C:\WINDOWS\计算机联锁仿真培训系统（标准版）</FolderPath>
+<FolderPath>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Data</FolderPath>
+<FolderPath>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\sound</FolderPath>
+<FolderPath>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）\Control</FolderPath>
+<FolderPath>C:\Users\patri\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\计算机联锁仿真培训系统（标准版）</FolderPath>
+</UninstallFolders>
+<SessionVars>
+<Var>
+<Name>%ProductName%</Name>
+<Value>计算机联锁仿真培训系统（标准版）</Value>
+</Var>
+<Var>
+<Name>%CompanyName%</Name>
+<Value>上海铁道大学电子设备厂</Value>
+</Var>
+<Var>
+<Name>%ProductVer%</Name>
+<Value>1.0</Value>
+</Var>
+<Var>
+<Name>%Copyright%</Name>
+<Value>版权 (C)2005 %CompanyName%</Value>
+</Var>
+<Var>
+<Name>%CompanyURL%</Name>
+<Value></Value>
+</Var>
+<Var>
+<Name>%WindowTitle%</Name>
+<Value>%ProductName% 安装</Value>
+</Var>
+<Var>
+<Name>%AppFolder%</Name>
+<Value>C:\Program Files (x86)\计算机联锁仿真培训系统（标准版）</Value>
+</Var>
+<Var>
+<Name>%AppShortcutFolderName%</Name>
+<Value>计算机联锁仿真培训系统（标准版）</Value>
+</Var>
+<Var>
+<Name>%ApplicationDataFolder%</Name>
+<Value>C:\Users\patri\AppData\Roaming</Value>
+</Var>
+<Var>
+<Name>%CommonFilesFolder%</Name>
+<Value>C:\Program Files (x86)\Common Files</Value>
+</Var>
+<Var>
+<Name>%DesktopFolder%</Name>
+<Value>C:\Users\patri\Desktop</Value>
+</Var>
+<Var>
+<Name>%DesktopFolderCommon%</Name>
+<Value>C:\Users\Public\Desktop</Value>
+</Var>
+<Var>
+<Name>%FontsFolder%</Name>
+<Value>C:\Windows\Fonts</Value>
+</Var>
+<Var>
+<Name>%MyDocumentsFolder%</Name>
+<Value>C:\Users\patri\Documents</Value>
+</Var>
+<Var>
+<Name>%ProgramFilesFolder%</Name>
+<Value>C:\Program Files (x86)</Value>
+</Var>
+<Var>
+<Name>%StartFolder%</Name>
+<Value>C:\Users\patri\AppData\Roaming\Microsoft\Windows\Start Menu</Value>
+</Var>
+<Var>
+<Name>%StartFolderCommon%</Name>
+<Value>C:\ProgramData\Microsoft\Windows\Start Menu</Value>
+</Var>
+<Var>
+<Name>%StartProgramsFolder%</Name>
+<Value>C:\Users\patri\AppData\Roaming\Microsoft\Windows\Start Menu\Programs</Value>
+</Var>
+<Var>
+<Name>%StartProgramsFolderCommon%</Name>
+<Value>C:\ProgramData\Microsoft\Windows\Start Menu\Programs</Value>
+</Var>
+<Var>
+<Name>%StartupFolder%</Name>
+<Value>C:\Users\patri\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Value>
+</Var>
+<Var>
+<Name>%StartupFolderCommon%</Name>
+<Value>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Value>
+</Var>
+<Var>
+<Name>%SystemFolder%</Name>
+<Value>C:\WINDOWS\system32</Value>
+</Var>
+<Var>
+<Name>%WindowsFolder%</Name>
+<Value>C:\WINDOWS</Value>
+</Var>
+<Var>
+<Name>%SystemDrive%</Name>
+<Value>C:</Value>
+</Var>
+<Var>
+<Name>%TempFolder%</Name>
+<Value>C:\Users\patri\AppData\Local\Temp</Value>
+</Var>
+<Var>
+<Name>%TempLaunchFolder%</Name>
+<Value>C:\Users\patri\AppData\Local\Temp\_ir_sf7_temp_0</Value>
+</Var>
+<Var>
+<Name>%RegOwner%</Name>
+<Value>patrick2004@126.com</Value>
+</Var>
+<Var>
+<Name>%RegOrganization%</Name>
+<Value></Value>
+</Var>
+<Var>
+<Name>%AppDrive%</Name>
+<Value>C:</Value>
+</Var>
+<Var>
+<Name>%DAOPath%</Name>
+<Value>%CommonFiles%\Microsoft Shared\DAO</Value>
+</Var>
+<Var>
+<Name>%SourceFilename%</Name>
+<Value>C:\Users\patri\Downloads\ctf\standard.exe</Value>
+</Var>
+<Var>
+<Name>%SourceFolder%</Name>
+<Value>C:\Users\patri\Downloads\ctf</Value>
+</Var>
+<Var>
+<Name>%SourceDrive%</Name>
+<Value>C:</Value>
+</Var>
+<Var>
+<Name>%SpaceAvailable%</Name>
+<Value>156.64 GB</Value>
+</Var>
+<Var>
+<Name>%SpaceRequired%</Name>
+<Value>24.0 MB</Value>
+</Var>
+</SessionVars>
+</SUF70UninstallData>

@@ -1,0 +1,15 @@
+
+s ='ucvar1'
+
+for(i=1;i<=vbp.pCodeStrings.count;i++){
+  CPStrRef = vbp.pCodeStrings(i);
+  //tb.t(CPStrRef.data)
+  if(CPStrRef.data.indexOf(s) >= 0){
+      tb.t('string ' + s + ' found has '+CPStrRef.refs.count + ' hits')
+      for(j=1;j<=CPStrRef.refs.count;j++){
+        CPStrRef2 = CPStrRef.refs(j)
+        tb.t('\t'+CPStrRef2.cb.displayName(1)+' offset:'+CPStrRef2.hexOffset) 
+      }
+  }
+}
+

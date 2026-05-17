@@ -1,0 +1,49 @@
+'internalName: CFileSystem3
+'Desc file system access class for reading and writing files
+
+'Public Enum SpecialFolders
+'    sf_DESKTOP = &H0 '<desktop>
+'    sf_PERSONAL = &H5 'My Documents
+'    sf_DESKTOPDIRECTORY = &H10 '<user name>\Desktop
+'End Enum
+
+'Variables
+Public dlg As New CCmnDlg
+
+'Methods
+Function FileSize(fPath As String) As String
+Function GetSpecialFolder(sf As SpecialFolders) As String
+Function DriveTypeString(ByVal drive) As String
+Function DriveType(ByVal drive) As DriveTypes
+Function GetDrives() As Collection
+Function GetShortName(sFile As String) As String
+Function FolderName(ByVal folderPath)
+Function DeleteFolder(folderPath, Optional Force = True)
+Function CreateFile(fPath)
+Function Move(fPath, toFolder)
+Function Copy(fPath, toFolder)
+Sub AppendFile(path, it)
+Function writeFile(path, it) As Boolean
+Function ReadBinaryFile(fileName) As Byte()
+Function ReadFile(fileName) As Variant
+Function buildPath(folderPath)
+Function GetFreeFolderName(ByVal parentFolder, Optional prefix = "")
+Function GetFreeFileName(parentDir, Optional extension = ".txt")
+Function RandomNum() As Long
+Function SafeFileName(proposed)
+Function ChangeExt(path, ByVal ext, Optional doit = True)
+Function GetBaseName(path)
+Function GetExtension(path, Optional withDot = True)
+Sub SetAttribute(fPath, it As VbFileAttribute)
+Sub Rename(fullpath, newName)
+Function DeleteFile(fPath)
+Function FileNameFromPath(fullpath)
+Function CreateFolder(path)
+Function GetParentFolder(path, Optional levelUp = 1)
+Function FileExists(path) As Boolean
+Function FolderExists(path) As Boolean
+Function GetSubFolders(folderPath, Optional retFullPath = True, Optional recursive = False) As Collection
+Function GetFolderFiles(folderPath, Optional Filter = "*", Optional retFullPath = True, Optional recursive = False) As Collection
+
+'Variables dlg 
+'Methods FileSize GetSpecialFolder DriveTypeString DriveType GetDrives GetShortName FolderName DeleteFolder CreateFile Move Copy AppendFile writeFile ReadBinaryFile ReadFile GetFreeFolderName GetFreeFileName RandomNum SafeFileName ChangeExt GetBaseName GetExtension SetAttribute Rename DeleteFile FileNameFromPath CreateFolder GetParentFolder FileExists FolderExists SubFoldersInternal GetSubFolders

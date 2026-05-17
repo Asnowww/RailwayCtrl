@@ -1,0 +1,13 @@
+
+/*
+  Class CDeclare 
+	Public lib As String
+	Public functions As New Collection 'parallel collections, values matched by index
+	Public offsets As New Collection   'always add in sync..
+	Function dump(Optional indent = 1) As String
+*/
+
+
+for(i=1; i<= vbp.declares.count(); i++){
+    tb.t( vbp.declares(i).dump() )
+}

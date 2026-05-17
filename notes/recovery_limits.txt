@@ -1,0 +1,2 @@
+Recovered from binaries, manual, and MDB tables.
+The business logic is not fully decompiled yet; the VB6 files under src/ are scaffolding plus recovered identifiers and data model names.

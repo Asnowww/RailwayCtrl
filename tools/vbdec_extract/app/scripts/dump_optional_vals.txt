@@ -1,0 +1,29 @@
+
+tb.t("Dumping Methods w/ Optional Params and default values:")
+
+tot = 0;
+cex = vbp.codeObjects
+
+for(i=1; i <= cex.count; i++){
+
+   cco = cex.baseCollection(i)
+   cex2 = tb.newCollectionEx()
+   
+   for(j=1; j<= cco.methods2.count; j++){
+        cb = cco.methods2.baseCollection(j)
+        if( cb.hasPubFuncDesc ){
+            p = cb.pubFuncTypeDesc.getProtoType();
+            if(p.indexOf("Optional") > 0 && p.indexOf("=") > 0){
+                cex2.add("\t"+p);
+                tot++;
+            }
+        }
+    }
+    
+    if(cex2.count > 0){
+        tb.t('name:'+cco.name + "\r\n" + cex2.toString() + "\r\n")
+    }
+   
+}
+
+tb.t("Total hits: " + tot);

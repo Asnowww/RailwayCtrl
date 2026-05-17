@@ -1,0 +1,31 @@
+'internalName: CVBHeader
+'Variables oProjectName oHelpFile oProjectTitle oProjectExename aComRegisterData aExternalComponentTable aGuiTable ThunkCount ExternalComponentCount FormCount ThreadCount ThreadFlags fMDLIntObjs2 fMDLIntObjs aProjectInfo aSubMain BackupLanguageID LanguageID RuntimeDLLVersion BackupLanguageDLL LanguageDLL RuntimeBuild signature SubMainStartAddress baseOffset GuiObjects 
+
+'Variables
+Public oProjectName            As Long        '66h 102d
+Public oHelpFile               As Long        '62h 98d
+Public oProjectTitle           As Long        '5Eh 94d
+Public oProjectExename         As Long        '5Ah 90d
+Public aComRegisterData        As Long
+Public aExternalComponentTable As Long        '52h 82d  'aProjectDescription     As Long        '56h 86d
+Public aGuiTable               As Long        '4Eh 78d
+Public ThunkCount              As Long
+Public ExternalComponentCount  As Integer     '46h 70d    'Number of external components &#40;eg. winsock&#41; referenced
+Public FormCount               As Integer     '44h 68d
+Public ThreadCount             As Long        '40h 64d
+Public ThreadFlags             As Long        '3Ch 60d
+Public fMDLIntObjs2            As Long        '38h 56d
+Public fMDLIntObjs             As Long        '34h 52d
+Public aProjectInfo            As Long        '30h 48d
+Public aSubMain                As Long        '2Ch 44d    'Address to Sub Main&#40;&#41; code &#40;If 0000 0000 then it's a load form call&#41;
+Public BackupLanguageID        As Long        '28h 40d    'Backup Language ID &#40;only when Language DLL exists&#41;
+Public LanguageID              As Long        '24h 36d
+Public RuntimeDLLVersion       As Integer     '22h 34d    'Run-time DLL version
+Public BackupLanguageDLL       As String      '14h 20d 'Backup Language DLL name. 0x7F meaning default or null terminated string. Changing values do not effect working status of an exe.
+Public LanguageDLL             As String      '06h 06d 'Language DLL name 0x2A meaning default or null terminated string.
+Public RuntimeBuild            As Integer     '04h 04d 'RuntimeBuild
+Public signature               As String      '00h 00d 'VB5! identifier &quot;VB5!&quot;
+Public SubMainStartAddress As Long
+Public baseOffset As Long
+Public GuiObjects As New Collection 'of CGuiTable
+

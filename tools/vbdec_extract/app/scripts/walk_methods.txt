@@ -1,0 +1,25 @@
+
+/*
+walk all the code objects, dumping method names and embedded controls
+*/
+
+cex = vbp.codeObjects
+cex2 = tb.newCollectionEx()
+
+for(i=1; i <= cex.count; i++){
+   cco = cex.baseCollection(i)
+   cex2.add('name:'+cco.name+' methods:'+cco.methods2.count+' controls:'+ cco.embeddedControls.count )
+   cex2.add('\n\tMethods:')
+   for(j=1; j<= cco.methods2.count; j++){
+        cb = cco.methods2.baseCollection(j)
+        cex2.add('\t\t'+ tb.h(cb.va)+' '+cb.displayName(1) )
+    }
+    cex2.add('\n\tControls:')
+    for(j=1; j<= cco.embeddedControls.count; j++){
+        ccontrol = cco.embeddedControls.baseCollection(j)
+        cex2.add('\t\t'+ccontrol.Name )
+    }
+    cex2.add('\n')
+}
+
+tb.t(cex2.toString())

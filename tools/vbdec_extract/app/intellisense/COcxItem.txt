@@ -1,0 +1,23 @@
+'internalName: COcxItem
+
+'Variables
+Private mPath As String
+Private mTypeLib As String
+Public tli As TypeLibInfo
+Public guid As String
+Public libName As String
+Public Name As String
+Public ocxName As String
+
+'Properties
+Property TypeLib() As String
+Property path() As String
+
+'Methods
+Function FillGrid() As String
+Function dump(Optional indent = 1) As String
+Function GuidFor(className As String) As String
+
+'Variables mPath mTypeLib tli guid libName Name ocxName 
+'Properties TypeLib path 
+'Methods FillGrid dump regLookups GuidFor

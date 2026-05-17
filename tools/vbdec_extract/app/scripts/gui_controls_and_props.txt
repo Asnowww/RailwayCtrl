@@ -1,0 +1,29 @@
+
+//no intellisense for these new objects yet, will have to disasm vbdec with vbdec :)
+
+//walk the gui objects, 
+for(i=1; i <= vbp.vBHeader.GuiObjects.count(); i++){
+
+    gui = vbp.vBHeader.GuiObjects(i)
+    
+    cc = gui.cco.ControlProps.count //CCodeObject for this GUIObject 
+                                    //ControlProps is CollectionEx of CControlProperties
+                                    
+    tb.t("Gui " + gui.name + " Controls: " + cc + " BytesUnprocessed: " + gui.bytesNotProcessed)
+    
+    for(j=1; j <= gui.cco.ControlProps.count; j++){
+        cp = gui.cco.ControlProps.baseCollection(j) //individual CControlProperties class
+        c = cp.PropValues //collection of CControlPropValues..parsed on access (not by default) then cached 
+        
+        tb.t("\tControl Name: " + cp.owner + "   PropBytesNotProcessed: " + cp.PropBytesUnprocessed)
+        
+        for(x=1; x < c.count(); x++){
+            pv = c.item(x) //indivudal parsed CControlPropValue class
+            tb.t("\t\tPropName: " + pv.name) //+ " = " + pv.data)
+        }
+
+    }
+    
+    tb.t("\r\n\r\n")
+    
+}

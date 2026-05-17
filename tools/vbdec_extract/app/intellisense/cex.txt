@@ -1,0 +1,49 @@
+'internalName: CollectionEx
+'Alias cex2 cex3
+'Desc Extension of the native vb collection with more powerful convenience features
+
+'Variables
+Public OptionIgnoreKeyCase As Boolean
+Public OptionForceAsKey As Boolean
+
+'Properties
+Property isEmpty() As Boolean
+Property Count()
+Property Item(ByVal IndexOrKey As Variant, Optional ByVal forceAsKey As Byte = 0) As Variant
+Property BaseCollection() As Collection
+
+'Methods
+Function Sort(Optional descending As Boolean = True) As Boolean
+Function diff(c2 As CollectionEx, Optional byKey As Boolean = False) As CollectionEx
+Function findMatches(c2 As CollectionEx, Optional byKey As Boolean = False) As CollectionEx
+Sub fromArray(ary As Variant, Optional Append As Boolean = True, Optional uniqueOnly As Boolean, Optional trim As Boolean)
+Function toArray() As Variant()
+Function Keys() As String()
+Function changeIndexByKey(ByVal key As String, ByVal newIndex As Long) As Boolean
+Function changeIndex(OldIndex As Long, newIndex As Long) As Boolean
+Function changeKeyByIndex(ByVal index As Long, ByVal NewKey As String) As Boolean
+Function changeKey(ByVal OldKey As String, ByVal NewKey As String) As Boolean
+Function indexForKey(ByVal key As String) As Long
+Function keyForIndex(index As Long) As String
+Function keyForNormalIndex(normalCollection As Collection, index As Long) As String
+Function keyForValue(val, ByRef key) As Boolean
+Function fromDumpFile(ByVal fPath As String, Optional Append As Boolean, Optional trimIt As Boolean) As Long
+Function fromTextFile(ByVal fPath As String, Optional Append As Boolean, Optional trim As Boolean) As Long
+Function toTextFile(ByVal fPath As String, Optional header As String) As Boolean
+Function toDumpFile(ByVal fPath As String) As Boolean
+Function toString(Optional ByVal delimiter As String = vbCrLf, Optional ByVal includeKeys As Boolean = False) As String
+Function keyExists(ByVal key As String) As Boolean
+Function NewEnum() As IUnknown
+Function uniqueKey(ByVal suggested As String) As String
+Function Clone() As CollectionEx
+Sub Clear()
+Function dumpKeys() As String
+Sub CreateKey(ByVal k As String)
+Sub remove(ByVal IndexOrKey As Variant, Optional ByVal forceAsKey As Byte = 0)
+Sub Add(vData As Variant, Optional ByVal key As String, Optional Before As Variant, Optional After As Variant)
+Sub AddAutoIndex(vData As Variant, Optional ByVal key As String, Optional Before As Variant, Optional After As Variant)
+Sub Append(arg)
+
+'Variables OptionIgnoreKeyCase OptionForceAsKey 
+'Properties isEmpty Count Item BaseCollection 
+'Methods writeFile ReadFile SortArray Sort AryIsEmpty push FileExists Base16Decode Base16Encode diff findMatches fromArray toArray Keys changeIndexByKey changeIndex changeKeyByIndex changeKey indexForKey keyForIndex keyForNormalIndex keyForValue fromDumpFile fromTextFile toTextFile toDumpFile toString keyExists NewEnum uniqueKey Clone Clear dumpKeys CreateKey remove Add AddAutoIndex Append CopyMemory

@@ -1,0 +1,20 @@
+'internalName: CProjectInfo2
+'Variables lHelpContextID dwReserved2 szProjectHelpFile szProjectDescription dwUnused2 lpObjectList lNull2 lConst1 lpObjectTable lNull1 baseOffset 
+'Methods dump FillGrid
+
+'Variables
+Public lHelpContextID          As Long ' 0x24 (36d) Project Help Context ID
+Public dwReserved2             As Long ' 0x20 (32d) Always set to -1 after compiling. Unused
+Public szProjectHelpFile       As Long ' 0x1C (28d) Pointer to Project Help File
+Public szProjectDescription    As Long ' 0x18 (24d) Pointer to Project Description
+Public dwUnused2               As Long ' 0x14 (20d) Not written or read in any case.
+Public lpObjectList            As Long ' 0x10 (16d) Pointer to Object Descriptor Pointers.
+Public lNull2                  As Long ' 0x0C (12d) Not written or read in any case.
+Public lConst1                 As Long ' 0x08 (08d) Always set to -1 after compiling. Unused
+Public lpObjectTable           As Long ' 0x04 (04d) Back-Pointer to the Object Table.
+Public lNull1                  As Long ' 0x00 (00d)
+Public baseOffset As Long
+
+'Methods 
+Function dump(Optional prefix = vbTab) As String
+Function FillGrid() As String

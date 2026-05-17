@@ -1,0 +1,26 @@
+'internalName: CProjectInfo
+'Variables ExternalCount aExternalTable NullSpacer OriginalPathName Flag3 Flag2 oProjectLocation aNativeCode aVBAExceptionhandler ThreadSpace Flag1 aEndOfCode aStartOfCode Null1 aObjectTable signature baseOffset 
+'Methods dump
+
+'Variables
+Public ExternalCount As Long                        ' 0x238
+Public aExternalTable As Long                       ' 0x234
+Public NullSpacer As Byte                           ' 0x233
+Public OriginalPathName As String                   ' 0x2A
+Public Flag3 As Integer                             ' 0x28
+Public Flag2 As Integer                             ' 0x26
+Public oProjectLocation As Integer                  ' 0x24
+Public aNativeCode As Long                          ' 0x20
+Public aVBAExceptionhandler  As Long                ' 0x1C
+Public ThreadSpace As Long                          ' 0x18
+Public Flag1 As Long                                ' 0x14
+Public aEndOfCode As Long                           ' 0x10
+Public aStartOfCode As Long                         ' 0x0C
+Public Null1 As Long                                ' 0x08
+Public aObjectTable As Long                         ' 0x04
+Public signature As Long                            ' 0x00
+Public baseOffset As Long
+
+'Methods
+Function dump(Optional prefix = vbTab) As String
+

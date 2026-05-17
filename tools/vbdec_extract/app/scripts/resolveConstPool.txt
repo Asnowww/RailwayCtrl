@@ -1,0 +1,31 @@
+
+tb.t("dumping resolved const pool entries for each object (best guess)")
+if(!vbp.isPCode) tb.t("Const Pool is mostly for PCode (see blog for exceptions)")
+tb.t("Typename test: " + tb.typName(pb) )
+
+//progress bar demo also
+pb.value = 0
+pb.visible = true
+pb2.visible = true 
+pb.max = vbp.codeObjects.count
+pb2.showCount = true 
+
+for(j=1; j<= vbp.codeObjects.count; j++){
+    pb.value = j
+    cco = vbp.codeObjects(j)
+    pb.caption = cco.name + ": " + j + "/" + vbp.codeObjects.count
+    if( cco.objinfo.iConstantsCount > 0){
+        z = new Array(cco.name)
+        col = cco.resolveConstPool(pb2)
+        for(i=1; i <= col.count(); i++){
+            cpe = col.item(i)
+            //if(cpe.autoType.indexOf("--") > 0)
+                z.push( [ "\t" + i + ":", h(cpe.value), cpe.autoType, cpe.resolvedType].join(" ")) 
+        }
+        tb.t(z.join("\r\n") )
+    }
+}
+
+pb.visible = false
+pb2.visible = false
+

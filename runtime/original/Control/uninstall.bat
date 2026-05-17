@@ -1,0 +1,10 @@
+regsvr32 /u 道岔.ocx
+regsvr32 /u 区段.ocx
+regsvr32 /u 信号.ocx
+regsvr32 /u 分界线.ocx
+regsvr32 /u 菜单按钮.ocx
+regsvr32 /u 列车按钮.ocx
+regsvr32 /u 延时.ocx
+regsvr32 /u 标签.ocx
+regsvr32 /u 闭塞.ocx
+regsvr32 /u hyper.ocx

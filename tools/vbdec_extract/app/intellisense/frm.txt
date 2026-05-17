@@ -1,0 +1,24 @@
+'internalName: frmMain
+'Desc: main form object for loading new executables, analyzing the treeview, selecting new nodes, accessing ida and cpi objects.
+
+'Variables curNode ida cpi 
+'Events tvProject_NodeClick mnuStopDebugging_Click 
+'Methods VAFromCurLine SyntaxColor ManualNodeClick ConnectIDA OpenVBExe ObsfuscationScan
+
+'Variables
+Public curNode As node 'tag = ccodebody or other object
+Public ida As New cIDAClient
+Public cpi As New CProcessLib
+
+'Events
+Sub mnuStopDebugging_Click()
+
+'Methods
+Function VAFromCurLine() As Long
+Sub SyntaxColor(Optional scm As sci_color_mode = scm_pcode, Optional additionalKeywords As String)
+Sub ManualNodeClick(n As node, Optional recordHistory As Boolean = False)
+Function ShowTab(index As viewWindow)
+Function ConnectIDA() As Boolean
+Sub OpenVBExe(ByVal FilePath As String, Optional lImageBase As Long, Optional lFileOffset As Long)
+Function ObsfuscationScan() As String
+

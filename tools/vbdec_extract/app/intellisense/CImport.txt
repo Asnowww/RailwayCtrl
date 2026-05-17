@@ -1,0 +1,17 @@
+'internalName: CImport
+
+'Variables
+Public FirstThunk
+Public DllName
+Public pLookupTable As Long
+Public functions As New Collection
+Public isRuntime As Boolean
+
+'Properties
+
+'Methods
+Function FuncAtVa(VA As Long, ByRef funcName) As Boolean
+Function dump(Optional indent = 1) As String
+
+'Variables FirstThunk DllName pLookupTable functions isRuntime
+'Methods FuncAtVa dump

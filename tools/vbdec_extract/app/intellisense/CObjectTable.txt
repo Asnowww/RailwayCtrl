@@ -1,0 +1,32 @@
+'internalName: CObjectTable
+
+'Variables
+Public dwIdentifier As Long        ' Template Version of Structure.
+Public lpIdeData3 As Long          ' Flag/Pointer used in IDE only.
+Public LangID2 As Long
+Public LangID1 As Long
+Public aProjectName As Long        ' Pointer to Project Name
+Public lpIdeData2 As Long          ' Flag/Pointer used in IDE only.
+Public lpIdeData As Long           ' Flag/Pointer used in IDE only.
+Public fIdeFlag As Long            ' Flag/Pointer used in IDE only.
+Public lpObjectArray As Long       ' Pointer to Object Descriptors
+Public iObjectsInUse As Integer
+Public iCompiledObjects As Integer ' Equal to above after compiling.
+Public ObjectCount1 As Integer     ' Total objects present in Project.
+Public fCompileType As Integer     ' Internal flag used during compilation.
+Public uuidObj As String           ' GUID of the Object Table. (was 4 flags dzzie (from vb.idc)
+Public lpProjectObject As Long     ' Pointer to in-memory Project Data.
+Public Null2 As Long
+Public Const1 As Long              ' Always set to -1 after compiling. Unused
+Public aProjectInfo2 As Long       ' Secondary Project Information
+Public aExecProj As Long           ' Pointer to VB Project Exec COM Object.
+Public lNull1 As Long
+Public ProjectInfo2 As New CProjectInfo2
+Public baseOffset As Long
+
+'Methods
+Function FillGrid() As String
+Function dump(Optional prefix = vbTab) As String
+
+'Variables dwIdentifier lpIdeData3 LangID2 LangID1 aProjectName lpIdeData2 lpIdeData fIdeFlag lpObjectArray iObjectsInUse iCompiledObjects ObjectCount1 fCompileType uuidObj lpProjectObject Null2 Const1 aProjectInfo2 aExecProj lNull1 ProjectInfo2 baseOffset 
+'Methods FillGrid dump

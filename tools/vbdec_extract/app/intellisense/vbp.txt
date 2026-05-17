@@ -1,0 +1,81 @@
+'internalName: CVBProject
+'Desc Main class which holds references to all structures and sub types. See /intellisense/vbp.txt for more details
+'Variables elapsedTime LoadedOk UserFuncRenames Comments DataReports UnknownModules PropertyPages UserControls Classes UserDocs Modules Forms CodeObjects ActXRefs Images PCodeStrings VBImports Imports Exports Declares OcxList ExternalComponentCount ExportDllName SubMain HelpFile ProjectDescription ProjectExename ProjectName ProjectTitle CompileType ModuleCount FormCount VBStartOffset ProjectInfo ComRegInfo ComRegData VBHeader ObjTable VB5Offset isDll md5Hash parentDir OutPutDir fileExt fileBaseName FilePath version isInitilized 
+'Properties isPCode RunLog MainForm DebugStatus isDebugging 
+'Methods NopInst JumpTo Patch Search Method2ExistsFor DumpOcx DumpApi dump CodeObjectFromBody2 CodeBodyForVA2 AllBreakPoints CodeObjForGUID CodeObjFromName ControlFromFullName ImportAtVA GetExport DumpExports
+
+'Variables
+Public elapsedTime as String 
+Public LoadedOk As Boolean
+Public UserFuncRenames As New CollectionEx 'key is parent.subName of proc to rename (never changes) value is the new name (no parent) (should we include parent in new name?)
+Public Comments As New CollectionEx 'key is va, this is a parallel flat list maintained by the individual CCodeBody instances
+Public DataReports As New Collection
+Public UnknownModules As New Collection
+Public PropertyPages As New Collection
+Public UserControls As New Collection
+Public Classes As New Collection
+Public UserDocs As New Collection        
+Public Modules As New Collection        'just the Modules CCodeObjects
+Public Forms As New Collection          'just the Form CCodeObjects
+Public CodeObjects As New CollectionEx  'reference to all CCodeObjects in once place with key
+Public ActXRefs As New CollectionEx      'of CActXLibs loaded on demand while parsing disasm (same as how vb loads them)
+Public Images As New Collection          'of CImage
+Public PCodeStrings As New CollectionEx  'of CPStrRef key = hex offset
+Public VBImports As New CollectionEx     'of CVBImport
+Public Imports As CollectionEx           'of CImport
+Public Exports As New CollectionEx       'of CExport
+Public Declares As New Collection        'of CDeclare
+Public OcxList As New CollectionEx       'of COcxItem
+Public ExternalComponentCount As Long
+Public ExportDllName As String
+Public SubMain As Long
+Public HelpFile As String
+Public ProjectDescription As String
+Public ProjectExename As String
+Public ProjectName As String
+Public ProjectTitle As String
+Public CompileType As String
+Public ModuleCount As Long
+Public FormCount As Long
+Public VBStartOffset As Long
+Public ProjectInfo As New CProjectInfo
+Public ComRegInfo As New CComRegInfo
+Public ComRegData As New CComRegData
+Public VBHeader As New CVBHeader
+Public ObjTable As New CObjectTable
+Public VB5Offset As Long
+Public isDll As Boolean
+Public md5Hash As String
+Public parentDir As String
+Public OutPutDir As String
+Public fileExt As String
+Public fileBaseName As String
+Public FilePath As String
+Public version As Long
+Public isInitilized As Boolean
+
+'Properties
+Property isPCode() As Boolean
+Property RunLog() As String
+Property MainForm() As frmMain
+Property DebugStatus() As DebugStatusCode
+Property isDebugging() As Boolean
+
+'Methods
+Function Method2ExistsFor(arg, Optional msb As MethodSearchBy = msb_rawaddr, Optional ByRef outCB As CCodeBody) As Boolean
+Function DumpOcx() As String
+Function DumpApi() As String
+Function dump() As String
+Function CodeObjectFromBody2(cb As CCodeBody) As CCodeObject
+Function CodeBodyForVA2(vaHexStrOrLng) As CCodeBody
+Function AllBreakPoints() As Collection
+Function CodeObjForGUID(guid As String) As CCodeObject
+Function CodeObjFromName(n As String) As CCodeObject
+Function ControlFromFullName(formDotControl As String) As CControl
+Function ImportAtVA(ByVal va As Long, ByRef outVar) As Boolean
+Function GetExport(sName) As CExport
+Function DumpExports() As String
+Function Search(text) As CollectionEx        'returns csv list hexOffset,full func name, asm line 
+Function Patch(vaHexStrOrLng, hexStr) As String         'return is errMsg if any
+Sub JumpTo(vaHexStrOrLng)  'jump to va line in main disasm view
+Function NopInst(vaHexStrOrLng, Optional showErr = 0) As Boolean

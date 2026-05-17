@@ -1,0 +1,9 @@
+
+tb.t("name,CtlCount,BytesNotProcessed")
+
+for(i=1; i <= vbp.vBHeader.GuiObjects.count(); i++){
+    
+    gui = vbp.vBHeader.GuiObjects(i)
+    tb.t( [gui.name, gui.cco.ControlProps.count, gui.bytesNotProcessed].join(',') )
+
+}

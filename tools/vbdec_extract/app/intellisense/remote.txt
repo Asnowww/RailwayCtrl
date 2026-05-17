@@ -1,0 +1,32 @@
+'internalName: COpenScript
+'Desc for use with Script Remote Process & openscript.dll 
+
+'Properties
+Property Get ServerHWND As Long
+Property Get pid As Long
+Property Get lastMsg As String 'if injector form is open
+Property Get forms  'returns a collection short for GetObject(remote.forms)
+property Get isAlive '1= assumed, 2=confirmed (injector form open)
+property Get hProc  
+property Get lastSendRetVal 
+
+'Methods
+Function GetObj(rotName)
+Function terminate()
+Function newObj(objName, rotName) As Long  'objName is internal className or hex objInfo address
+Function regPtr(ptr As Long, rotName) As Long 'ptr from Live Instances form
+Function SendIPC(msg As String, Optional targetHwnd As Long = 0, Optional senderHwnd As Long = 0) As Long
+Function readLong(addr)
+Function typName(objPtr)
+Function instancesOf(cco_or_name) As Collection 'of ObjPtrs. If .Count = 0 check lastMsg
+Function readString(addr As Long, Optional asHex As Boolean = False, Optional maxLen = 2000, Optional isVarAddr As Boolean = True) As String
+Function readInt(addr As Long) As String
+Function readByte(addr As Long) As String
+Function readDate(addr As Long) As String
+Function readCur(addr As Long) As Currency
+Function readDouble(addr As Long) As Double
+Function readSingle(addr As Long) As Single
+Function readBuf(addr As Long, size As Long, Optional isVarAddr As Boolean = False) As String 'hex string 
+
+'Properties ServerHWND pid lastMsg forms isAlive hProc lastSendRetVal 
+'Methods terminate newObj regPtr SendIPC GetObj readLong typName instancesOf readString readInt readByte readDate readCur readDouble readSingle readBuf

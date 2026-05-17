@@ -1,0 +1,7 @@
+'internalName: Collection
+'Methods Count Item
+'Desc vb native collection object used for holding both classes and flat data types
+
+'Methods
+Function Count() As Long
+Function Item(Index)

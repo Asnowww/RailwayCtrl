@@ -1,0 +1,12 @@
+tb.t( "remote server: " + h(remote.ServerHWND) )
+tb.t("isAlive: " + remote.isAlive)
+
+p = remote.readLong(0x5C9C40 + 0x34) //read value at live class instance + data offset
+tb.t( h(p) )
+
+if(p==0) throw new Error("could not read class ptr? was it used at least once to instantiate?");
+
+tb.t( remote.typName(p) )   //works for external, internal only getting 'Object'
+tb.t(remote.lastSendRetVal) //this should be 1 if it worked..must test after call..
+
+ 

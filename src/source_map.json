@@ -1,0 +1,33 @@
+{
+  "launchers": [
+    "FrmStar",
+    "FrmSelect",
+    "MainModule"
+  ],
+  "teacher_modules": [
+    "frmMain",
+    "frmSys",
+    "frmConsole"
+  ],
+  "student_shared": [
+    "frmMain",
+    "frmSys",
+    "frmConsole",
+    "frmErr"
+  ],
+  "settings": [
+    "frmSetMain"
+  ],
+  "shared_modules": [
+    "VariantModule",
+    "GeneralModule",
+    "DisplayModule",
+    "InitialModule",
+    "Locked_Module",
+    "UnLock_Module",
+    "InterBSModule",
+    "RunningModule",
+    "aCtrolModule",
+    "aStudentModel"
+  ]
+}

@@ -1,0 +1,65 @@
+'internalName: CCodeBody
+'Alias cb2 cb3
+'Variables isPatch BreakPoints labels trailer truncated isEvent FileOffset size byteBlob userName marked lastOffset FrameSize ConstPool publicName parent subName va index rawAddr tvNode 
+'Properties FullName Disasm asmLines byteStream byteCRC Comment isPatched isObsfuscated 
+'Methods RemoveBreakpoint SetBreakpoint BreakPointExists ToggleBreakPoint displayName isLabel disasmLine AddLine IndexFromVA CodeForVA ScanForPrev PrevDisasm PrevVA nextVa ContainsAddress maxIndex getBaseAsm getAsm getLeadByte getOpCodeNum hasLeadByte instrLen getDump getOffset
+
+'Desc every method gets its own CCodeBody class which holds the disasm, comments, bpx, and attributes
+
+'Variables
+Public isPatch As Boolean
+Public BreakPoints As New CollectionEx 'key=va val=va
+Public labels As New CollectionEx
+Public trailer As String     'unknown left over bytes that could not be disasm at end of function while still < size
+Public truncated As Boolean
+Public isEvent As Boolean
+Public FileOffset As Long
+Public size As Long
+Public byteBlob As String
+Public userName As String  'name set by user
+Public marked As Boolean
+Public lastOffset As Long
+Public FrameSize As Long
+Public ConstPool As Long
+Public publicName As String
+Public parent As String
+Public subName As String
+Public va As Long
+Public index As Long
+Public rawAddr As Long
+Public tvNode As node
+
+'Properties
+Property FullName() As String
+Property Disasm(Optional showPrefix As Boolean = True, Optional showOffsets As Boolean = True, Optional showbytes As Boolean = True, Optional noArgs As Boolean = False, Optional showTrailer As Boolean = True, Optional includeIndents As Boolean = False, Optional showComments As Boolean = True)
+Property asmLines() As Long
+Property byteStream() As String
+Property byteCRC() As String
+Property Comment(va As Long) As String
+Property isPatched() As Boolean
+Property isObsfuscated() As Boolean
+
+'Methods
+Function RemoveBreakpoint(va As Long, Optional ByVal lineNo As Long) As Boolean
+Function SetBreakpoint(va As Long, Optional ByVal lineNo As Long) As Boolean
+Function BreakPointExists(va As Long) As Boolean
+Sub ToggleBreakPoint(va As Long, Optional lineNo As Long)
+Function displayName(Optional full As Boolean = False, Optional ignoreUser As Boolean = False) As String
+Function disasmLine(indexOrVa As Long, Optional showOffsets As Boolean = True,   Optional showbytes As Boolean = True,  Optional noArgs As Boolean = False, Optional includeIndents As Boolean = False, Optional showComments As Boolean = True)
+Function IndexFromVA(ByVal va As Long) As Long
+Function CodeForVA(ByVal va As Long) As String
+Function ScanForPrev(instText As String, ByRef outDisasm, ByRef in_out_va As Long) As Boolean
+Function PrevDisasm(ByRef in_out_va As Long) As String
+Function PrevVA(ByVal va As Long, Optional ByRef index As Long) As Long 'note index never set in script engine limitation
+Function nextVa(Optional ByVal va As Long = -1) As Long 'for step over support
+Function ContainsAddress(ByVal vaddr As Long) As Boolean
+Function maxIndex() As Long
+Function getBaseAsm(index)
+Function getAsm(index)
+Function getLeadByte(index) As Byte
+Function getOpCodeNum(index) As Byte
+Function hasLeadByte(index)
+Function instrLen(index)
+Function getDump(index, Optional noSpaces As Boolean = False)
+Function getOffset(index)
+

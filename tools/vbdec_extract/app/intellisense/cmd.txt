@@ -1,0 +1,14 @@
+'internalName: CCmdLine
+'Desc: parses command line arguments passed to app
+
+'Variables args
+'Events
+'Methods argExists GetArg LoadArgs
+
+'Variables
+Public args As Collection
+
+'Methods
+Function argExists() As Boolean
+Function GetArg(arg As String) As String
+Function LoadArgs([cmdline]) As Long

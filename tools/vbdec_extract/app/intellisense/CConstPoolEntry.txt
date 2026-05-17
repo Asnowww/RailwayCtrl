@@ -1,0 +1,16 @@
+'internalName: CConstPoolEntry
+
+'Alias cpe
+'Desc Entries returned from cco.ResolveConstPool
+
+'Variables
+Public value As Long
+Public addr As Long
+Public index As Long
+Public autoType As String
+Public resolvedType As String
+
+'Methods
+ 
+'Variables value addr index autoType resolvedType 
+'Methods  

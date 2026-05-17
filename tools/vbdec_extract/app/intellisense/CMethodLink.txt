@@ -1,0 +1,13 @@
+'internalName: CMethodLink
+
+'Variables
+Public rawAddr As Long  'used by methods only native and pcode
+Public index As Long    'set by loader
+Public Name As String   'really just for debugging
+Public varOffset As Long 'this + x = var mem address
+
+'Methods
+Function dump()
+
+'Variables rawAddr index Name varOffset 
+'Methods dump

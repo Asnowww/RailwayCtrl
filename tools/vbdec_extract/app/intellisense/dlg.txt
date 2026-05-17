@@ -1,0 +1,12 @@
+'internalName: CCmnDlg
+'Desc class to prompt for file and folder names to open or save to
+
+'Methods
+Function FolderDialog() As String
+Function SaveDialog(Optional ByVal defaultFileName, Optional initDir = "", Optional title = "Save File") As String
+Function OpenMulti(Optional initDir = "", Optional title = "Open File") As Collection
+Function OpenDialog(Optional initDir = "", Optional title = "Open File") As String
+Sub SetCustomFilter(displayText As String, Optional wildCardExtMatch = "*.*")
+Function FolderDialog2(Optional ByVal initDir = "") As String
+
+'Methods FolderDialog ColorDialog SaveDialog OpenMulti OpenDialog SetCustomFilter FolderDialog2

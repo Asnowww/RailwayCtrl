@@ -1,0 +1,21 @@
+'internalName: CActXRef
+
+'Variables
+Public dll As String
+Public errMsg As String
+Dim ti As New CDbTypeLibLookup
+Public methods As New CollectionEx 'of CMember key = voffset
+Public Name As String
+Public altClsid As String  'in case clsid is actually an interface id
+Public clsid As String
+
+'Properties
+Property displayName() As String
+
+'Methods
+Function DumpMembers() As String
+Function memberForID(id As Long) As CMember
+
+'Variables dll errMsg ti methods Name altClsid clsid 
+'Properties displayName 
+'Methods DumpMembers memberForID

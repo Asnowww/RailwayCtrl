@@ -1,0 +1,9 @@
+'internalName: CExport
+
+'Variables
+Public Name As String
+Public Address As Long
+Public Ordial As Long
+Public VA As Long
+
+'Variables Name Address Ordial VA

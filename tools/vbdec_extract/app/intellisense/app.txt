@@ -1,0 +1,11 @@
+'internalName: VB6 Application Object
+'Desc standard VB6 APP Object
+
+'Properties
+Property Get Major() As Integer
+Property Get Minor() As Integer
+Property Get Revision() As Integer
+Property Get Path() As String
+Property PrevInstance As Boolean
+
+'Properties Major Minor Revision Path PrevInstance

@@ -1,0 +1,27 @@
+'internalName: ProgressBar
+
+'Alias pb pb2
+'Desc progress bar user control
+
+'Variables
+LeftJustify As Boolean
+ShowCount As Boolean 
+caption As String 
+Max As Long
+value As Long
+ShowPercent As Boolean
+fontSize As Long
+FillStyle As Long
+FillColor As Long
+BackColor As Long
+Visible As boolean
+  
+'Methods 
+Sub reset() 
+Sub inc(Optional ticks As Long = 1)
+Sub dec(Optional ticks As Long = 1)
+Sub AssumeMinHeight()
+Sub Refresh()
+ 
+'Variables  LeftJustify ShowCount caption Max value ShowPercent fontSize FillStyle FillColor BackColor Visible
+'Methods  reset inc dec AssumeMinHeight Refresh

@@ -1,0 +1,15 @@
+'internalName: Recordset
+'Desc: ActiveX Data Objects Recordset Object (not all methods shown)
+
+'Variables BOF EOF
+'Events  
+'Methods MoveNext
+
+'Variables
+Property BOF As Boolean
+Property EOF As Boolean
+
+'Events
+
+'Methods
+Sub MoveNext()

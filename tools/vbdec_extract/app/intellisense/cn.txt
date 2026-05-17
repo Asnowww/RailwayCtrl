@@ -1,0 +1,15 @@
+'internalName: Adodb.Connection
+'Desc: ActiveX Data Objects Connection Object (not all methods shown)
+
+'Variables ConnectionString
+'Events  
+'Methods Execute Open
+
+'Variables
+Property ConnectionString As String
+
+'Events
+
+'Methods
+Function Execute(CommandText As String, [RecordsAffected], [Options As Long = -1]) As Recordset
+Sub Open([ConnectionString As String], [UserID As String], [Password As String], [Options As Long = -1])

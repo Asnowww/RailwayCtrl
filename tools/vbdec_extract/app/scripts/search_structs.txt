@@ -1,0 +1,5 @@
+find = tb.getClipboard()
+if(find.length == 0) find = tb.prompt("Enter text to search structs for")
+if(find.length == 0) throw("Nothing to do")
+msg = "Searching Structs for: " + find + "\r\n" + tb.repeat("-",69) + "\r\n"  
+tb.t( msg + tb.searchStructs(find) )

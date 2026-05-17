@@ -1,0 +1,9 @@
+s = tb.h(tb.h2l(tb.prompt('Enter hex number str','11223344')))
+tb.t('prompt hexstr to num to hex:' + s)
+
+desktop = fso.getSpecialFolder(0x10) //see enum in /%app%/intellisense/fso.txt
+dlg.setCustomFilter('Text',"*.txt") //optional
+pth = dlg.saveDialog('test.txt',desktop)  
+tb.t('SaveFile selected: ' + pth)
+
+tb.t('Folder selected: ' + dlg.folderDialog2(desktop))
