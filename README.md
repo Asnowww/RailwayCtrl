@@ -1,9 +1,22 @@
-# EI32-JD reconstructed source workspace
+# EI32-JD Reconstructed Source Workspace
 
-This folder contains:
-- `src/`: reconstructed VB6-style source skeletons
-- `data_export/`: exported MDB tables
-- `runtime/original/`: original binaries and resources for immediate use
-- `docs/`: recovery notes and overview
+This repository contains the decompiled VB6 source workspace for the railway interlocking training system.
 
-The source is a best-effort reconstruction from strings, database tables, the manual, and PE metadata.
+## Main Source
+
+- `src/teacher/Project.vbp` - decompiled `teacher.exe`
+- `src/student_ei32jd/Project.vbp` - decompiled `学员机（EI32-JD）.exe`
+- `export/teacher/` and `export/EI32-JD/` - raw VB Decompiler exports preserved as received
+
+The old scaffold `.vbp` files, such as `src/teacher/Teacher.vbp` and `src/student_ei32jd/Student_EI32JD.vbp`, are legacy placeholders from the first pass. Use `Project.vbp` in each source directory as the primary VB6 project entry.
+
+## Runtime And Data
+
+- `runtime/original/` - original binaries and resources
+- `runtime/original/Control/` - required custom OCX controls
+- `runtime/original/Data/` - original MDB databases
+- `data_export/` - CSV exports of the MDB tables
+
+## Status
+
+The teacher and EI32-JD student projects are now real VB Decompiler exports, not hand-written skeletons. Some procedures are still emitted as native-code pseudo source/assembly because the original binaries were VB6 native-code builds.
